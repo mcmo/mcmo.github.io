@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Archive of My Posts"
+---
+
+<div class="message">These are sample posts from the website theme that I am using. Until I accumulate some posts of my own, I'll keep these here.</div>
+
+{% for post in site.posts %}
+	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+	<p>{{ post.content | truncatewords:50 }}</p>
+{% endfor %}
