@@ -5,7 +5,9 @@ gems: [jekyll-paginate]  # https://github.com/poole/lanyon/issues/124
 
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-# relative_permalinks: true # https://github.com/poole/lanyon/issues/124
+# relative_permalinks: true
+# https://github.com/poole/lanyon/issues/124
+# http://jekyllrb.com/docs/upgrading/2-to-3/
 
 # Setup
 title:               mcmordie.net
